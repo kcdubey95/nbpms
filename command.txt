@@ -1,0 +1,5 @@
+flask db init
+flask db migrate
+flask db upgrade
+
+model code must call in controllers before migrate
